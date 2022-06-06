@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# Count_Down_Timer
+簡易的なカウンタダウンタイマーです。  
+Reactの学習のため作成しました。  
+指定した時間が経過するとアラートで知らせます。  
+経過時間（残り時間）は常に更新して表示します。
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## URL
+https://harutas.github.io/Count_Down_Timer/
 
 ## Available Scripts
 
