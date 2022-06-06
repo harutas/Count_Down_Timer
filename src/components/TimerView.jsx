@@ -1,9 +1,10 @@
 import { Typography } from "@mui/material"
+import { Timer } from "../model"
 
-const TimerView = () => {
+const TimerView = (props) => {
   return (
-    <Typography variant="h1" component="div">
-      00:00:00
+    <Typography sx={{ typography: {xs :"h2", md: "h1"}}} component="div">
+      {Timer.timerString(props.time)}
     </Typography>
   )
 }

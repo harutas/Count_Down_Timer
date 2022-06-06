@@ -1,4 +1,4 @@
-class Timer {
+export class Timer {
     static timerString(timer){
         let hour = Math.floor(timer / 3600).toString().padStart(2, "0");
         let minute = Math.floor((timer % 3600) / 60).toString().padStart(2, "0");;
@@ -7,4 +7,3 @@ class Timer {
     }
 
 }
-console.log(Timer.timerString(7200))
