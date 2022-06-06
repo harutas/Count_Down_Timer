@@ -11,10 +11,14 @@ const TimerInput = (props) => {
     <Box >
       <FormControl sx={{ m: 1}} variant="outlined">
         <OutlinedInput
+          inputProps={props.inputProps}
           id="filled-adornment-weight"
-          value=""
-          // onChange={handleChange('weight')}
-          endAdornment={<InputAdornment position="end">{props.date}</InputAdornment>}
+          type='number'
+          name={props.name}
+          value={props.value}
+          disabled={props.disabled}
+          onChange={props.onChange}
+          endAdornment={<InputAdornment position="end">{props.placeholder}</InputAdornment>}
           size="small"
         />
       </FormControl>
